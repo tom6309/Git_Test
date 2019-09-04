@@ -65,7 +65,7 @@ public class Server : MonoBehaviour
             }
         }
 
-        for (int i = 0, i < disconnectList.Count - 1; i++)
+        for (int i = 0;i< disconnectList.Count - 1; i++)
         {
             Broadcast(disconnectList[i].clientName + " has disconnected",clients);
 
